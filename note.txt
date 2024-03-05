@@ -83,12 +83,43 @@ git reset <id>
 - Undo commit(s) up too commit <id> by deleting commits
 
 
-git add -A (--all) Adds everything, so that everything in your folder on disk is represented in the staging area
+git add -A (--all)
+- Adds everything, so that everything in your folder on disk is represented in the staging area
 
-git add . Stages everything, but does not remove files that have been deleted from the disk
+git add .
+- Stages everything, but does not remove files that have been deleted from the disk
 
-git add * Stages everything, but not files that begin with a dot & does not remove files that have been deleted from the disk
+git add *
+- Stages everything, but not files that begin with a dot & does not remove files that have been deleted from the disk
 
-git add -u (--update) Stages only Modified Files, removes files that have been deleted from disk, does not add new
+git add -u (--update)
+- Stages only Modified Files, removes files that have been deleted from disk, does not add new
 
 git add <file name 1> <file name 2> Adds only certain file(s)
+
+
+
+Git Branches
+
+- Key concepts.
+
+main / master -> is a branch
+
+Branches are containers that contains commits.
+
+git branch <name>
+- Create a new branch
+
+git branch
+- Get all list of branches
+
+git branch -D <name>
+- To delete a specific branch
+
+git checkout -b <name>
+- To create a specific branch and directly move to the branch
+
+git merge  <name> -
+
+
+

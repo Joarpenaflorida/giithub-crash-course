@@ -5,3 +5,21 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  text-align: center;
+  background-color: #322e2d;
+  color: #f6f0ee;
+}
+
+h1 {
+  color: #e8d4b2;
+}
+
+a {
+  color: #fee389;
+}
