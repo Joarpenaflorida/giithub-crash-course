@@ -1,0 +1,41 @@
+Git
+
+- Free version control system
+- Manage source code changes  - website any source code and programming language being used.
+- Allow to create snapshots (commits)
+- Multiple versions of the same package simultaneously work with versions (branches)
+- Move between branches & commits (checkout)
+
+With Git, you can easily roll back to older code snapshots or develop new features without breaking production code.
+
+Github
+
+- Cloud Git repository & service provider.
+- Bucket or space to store your code - local or remote
+- Storing & managing Git repositories
+- Cloud Git repository storage (push & pull)
+  - Public & private, team management & more.
+- Code management & collaborative development
+  - Via "issues", "Projects", "Pull Requests" & more.
+
+
+Git repositories
+
+Git features can be used in projects with Git repositories
+    - A repository is a folder used in Git to track all the changes of a given project.
+        -> Git commands require a repository in a project
+
+    - To create a Git repositories via git init
+        -> Only required once per folder / project
+
+    - Some projects initialize Git for you
+        -> e.g. React projects
+
+git init - Initialize a git repository
+
+Create commits
+    - git add <file(s)>
+      -> State changes for next commit.
+
+    - git commit
+      -> Create a commit that includes all staged changes.
