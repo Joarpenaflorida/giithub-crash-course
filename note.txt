@@ -8,15 +8,6 @@ Git
 
 With Git, you can easily roll back to older code snapshots or develop new features without breaking production code.
 
-Github
-
-- Cloud Git repository & service provider.
-- Bucket or space to store your code - local or remote
-- Storing & managing Git repositories
-- Cloud Git repository storage (push & pull)
-  - Public & private, team management & more.
-- Code management & collaborative development
-  - Via "issues", "Projects", "Pull Requests" & more.
 
 
 Git repositories
@@ -121,5 +112,43 @@ git checkout -b <name>
 
 git merge  <name> -
 
+
+Github
+
+- Cloud Git repository & service provider.
+- Bucket or space to store your code - local or remote
+- Storing & managing Git repositories
+- Cloud Git repository storage (push & pull)
+  - Public & private, team management & more.
+- Code management & collaborative development
+  - Via "issues", "Projects", "Pull Requests" & more.
+
+- Company created around Git. Allow you to add and store git repositories.
+
+- Cloud storage for your Git repositories -> Backup, cross-device usage, collaborative.
+
+- Public repositories can be viewed by everyone while private cannot.
+
+- Public repositories can only be viewed. Cannot be altered or deleted by everyone.
+
+- Backup cross-device usage, collaboration.
+
+
+git remote add <name> <url>
+git remote add origin "https://github.com/sample/sample.git"
+
+- Connected to local Git repositories
+
+git push
+
+- Local commits are uploaded
+
+git pull
+
+- Remote commits are downloaded
+
+git remote set-url origin
+
+git commit -m "added section"
 
 
