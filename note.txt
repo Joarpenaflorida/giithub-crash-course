@@ -34,8 +34,17 @@ Git features can be used in projects with Git repositories
 git init - Initialize a git repository
 
 Create commits
+
     - git add <file(s)>
       -> State changes for next commit.
 
+      git add index.html subfolder/ note.txt
+
     - git commit
       -> Create a commit that includes all staged changes.
+
+    - git status
+      -> Used to find what are staged and unstaged status of the git repository
+
+    - git checkout <id>
+      -> Temporary move to another commit
